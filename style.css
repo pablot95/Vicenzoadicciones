@@ -51,7 +51,7 @@ ul {
 
 /* Navbar */
 .navbar {
-    background-color: rgba(255, 255, 255, 0.46);
+    background-color: rgba(255, 255, 255, 0.127);
     padding:  0;
     position: sticky;
     top: 0;
@@ -111,7 +111,7 @@ ul {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(128, 128, 128, 0.6), rgba(4, 4, 4, 0.4)), url(images/hero.jpeg);
+    background: linear-gradient(rgba(193, 193, 193, 0.5), rgba(4, 4, 4, 0.5)), url(images/hero.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -315,7 +315,7 @@ ul {
 /* Support Network */
 .support-network {
     padding: 6rem 0;
-    background: linear-gradient(rgba(141, 123, 104, 0.9), rgba(141, 123, 104, 0.9)), url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&q=80');
+    background: linear-gradient(rgba(141, 123, 104, 0.7), rgba(141, 123, 104, 0.7)), url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&q=80');
     background-size: cover;
     background-position: center;
     color: var(--white);
