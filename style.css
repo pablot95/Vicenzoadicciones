@@ -412,13 +412,14 @@ footer {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background-color: var(--white);
+        top: 60px;
+        right: 0;
+        width: 50%;
+        background-color: rgba(255, 255, 255, 0.811);
         padding: 2rem;
         box-shadow: 0 10px 10px rgba(0,0,0,0.1);
         text-align: center;
+        border-radius: 24px;
     }
 
     .nav-links.active {
@@ -428,9 +429,17 @@ footer {
     .hamburger {
         display: block;
     }
-
+    .hero{
+        height: 80vh;
+        margin-top: 0;
+        padding: 0 5px;
+    }
     .hero-content h1 {
         font-size: 2.2rem;
+    }
+    .btn{
+        padding: 7px 17px;
+        margin-bottom: 20px;
     }
 
     .about-container {
