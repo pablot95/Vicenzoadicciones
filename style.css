@@ -411,6 +411,22 @@ footer {
     text-align: center;
 }
 
+.signature {
+    font-size: 0.8rem;
+    margin-top: 10px;
+    opacity: 0.8;
+}
+
+.signature a {
+    color: var(--white);
+    font-weight: 500;
+}
+
+.signature a:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .nav-links {
