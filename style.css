@@ -1,10 +1,9 @@
-/* Global Styles */
 :root {
-    --primary-color: #8D7B68; /* Marrón tierra suave */
-    --secondary-color: #C8B6A6; /* Beige más oscuro */
-    --accent-color: #A4B494; /* Verde salvia suave */
-    --blue-accent: #5F9EA0; /* Azul cadete (suave y profesional) */
-    --light-bg: #F9F8F6; /* Blanco hueso / Beige muy clarito */
+    --primary-color: #8D7B68;
+    --secondary-color: #C8B6A6;
+    --accent-color: #A4B494;
+    --blue-accent: #5F9EA0;
+    --light-bg: #F9F8F6;
     --text-color: #333333;
     --text-light: #555555;
     --white: #ffffff;
@@ -49,7 +48,6 @@ ul {
     color: var(--blue-accent);
 }
 
-/* Navbar */
 .navbar {
     background-color: rgba(255, 255, 255, 0.127);
     padding:  0;
@@ -109,7 +107,6 @@ ul {
     transition: all 0.3s ease;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(rgba(193, 193, 193, 0.5), rgba(4, 4, 4, 0.5)), url(images/hero.jpeg);
     background-size: cover;
@@ -182,7 +179,6 @@ ul {
     color: var(--white);
 }
 
-/* Intro Quote */
 .intro-section {
     padding: 4rem 0;
     background-color: var(--secondary-color);
@@ -198,7 +194,6 @@ ul {
     margin: 0 auto;
 }
 
-/* About Section */
 .about {
     padding: 6rem 0;
     background-color: var(--white);
@@ -262,7 +257,6 @@ ul {
     box-shadow: var(--shadow);
 }
 
-/* Services */
 .services {
     padding: 6rem 0;
     background-color: var(--light-bg);
@@ -317,7 +311,6 @@ ul {
     font-size: 0.95rem;
 }
 
-/* Support Network */
 .support-network {
     padding: 6rem 0;
     background: linear-gradient(rgba(141, 123, 104, 0.7), rgba(141, 123, 104, 0.7)), url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&q=80');
@@ -345,7 +338,6 @@ ul {
     opacity: 0.9;
 }
 
-/* Contact */
 .contact {
     padding: 6rem 0;
     background-color: var(--white);
@@ -403,7 +395,6 @@ ul {
     border-color: var(--blue-accent);
 }
 
-/* Footer */
 footer {
     background-color: var(--primary-color);
     color: var(--white);
@@ -427,7 +418,6 @@ footer {
     opacity: 1;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
